@@ -13,17 +13,16 @@ const Footer = () => {
       alignItems: 'center',
     },
     link: {
-      color: '#592B0',
-
-      border: '1px solid black'
+      color: '#592B02',
+      fontWeight: 700,
+      border: '1px solid #592B02'
     }
   }
   return (
     <div className="" style={styles.footer}>
-      <Button  href='https://github.com/Cygnet717' variant="outline-dark">Git Hub</Button>
-      <Button  href='https://www.linkedin.com/in/kathy-bradt-1796a9191/' variant="outline-dark">Linked In</Button>
-      <Button  href='https://stackoverflow.com/users/13035422/kathyb' variant="outline-dark">Stack Overflow</Button>
-     
+      <Button style={styles.link} href='https://github.com/Cygnet717' variant="outline-dark">Git Hub</Button>
+      <Button style={styles.link} href='https://www.linkedin.com/in/kathy-bradt-1796a9191/' variant="outline-dark">Linked In</Button>
+      <Button style={styles.link} href='https://stackoverflow.com/users/13035422/kathyb' variant="outline-dark">Stack Overflow</Button>
     </div>
   );
 };
