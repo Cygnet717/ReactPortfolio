@@ -6,7 +6,7 @@ import Footer from './pages/Footer';
 import AboutMe from './pages/AboutMe';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
-
+import Resume from './pages/Resume';
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
           <Route exact path="/" element={<Hero/>}/>
           <Route exact path="/AboutMe" element={<AboutMe/>}/>
           <Route exact path="/Projects" element={<Projects/>}/>
+          <Route exact path="/Resume" element={<Resume/>}/>
           <Route exact path="/Contact" element={<Contact/>}/>
         </Routes>
         <Footer />

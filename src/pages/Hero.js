@@ -1,15 +1,17 @@
-import React, { useState, useEffect } from 'react';
-
+import { Image } from 'react-bootstrap'
 const Hero = () => {
-  const [ ,  ] = useState([]);
-
-  useEffect(() => {
-    console.log('HERE')
-  }, []);
-
+  const styles = {
+    heroBg: {
+      backgroundImage: 'url("./images/background.jpg")',
+      height: '100vh',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover',
+    }
+  }
   return (
-    <div className="">
-      <h1>Hero</h1>
+    <div className="" style={styles.heroBg}>
+      <Image src="./images/selfie3.jpg" fluid />
     </div>
   );
 };
