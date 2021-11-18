@@ -7,11 +7,14 @@ const Hero = () => {
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
+    },
+    picture: {
+      border: '3px solid purple'
     }
   }
   return (
     <div className="" style={styles.heroBg}>
-      <Image src="./images/selfie3.jpg" fluid />
+      <Image src="./images/selfie3.jpg" style={styles.picture} fluid />
     </div>
   );
 };
