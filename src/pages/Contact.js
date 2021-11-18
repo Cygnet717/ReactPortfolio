@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const Footer = () => {
+const Contacts = () => {
   const [ ,  ] = useState([]);
 
   useEffect(() => {
@@ -9,9 +9,9 @@ const Footer = () => {
 
   return (
     <div className="">
-      <h2>Footer</h2>
+      <h1>Contacts</h1>
     </div>
   );
 };
 
-export default Footer;
+export default Contacts;

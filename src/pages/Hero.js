@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from 'react';
 
-const Footer = () => {
+const Hero = () => {
   const [ ,  ] = useState([]);
 
   useEffect(() => {
-    
+    console.log('HERE')
   }, []);
 
   return (
     <div className="">
-      <h2>Footer</h2>
+      <h1>Hero</h1>
     </div>
   );
 };
 
-export default Footer;
+export default Hero;
