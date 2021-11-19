@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Image from 'react-bootstrap/Image'
+import{ v4 as uuid }from 'uuid'
 
 const ReactComponent = (props) => {
   const proj = props.projData;
@@ -20,7 +21,7 @@ const ReactComponent = (props) => {
           <Container>
             <Row>
               {proj.technologies.map(tech => {
-                return (<Col xs={6} md={4}>
+                return (<Col key={uuid()} xs={6} md={4}>
                 <Image src={tech} thumbnail />
               </Col>)
               })}

@@ -1,13 +1,16 @@
-import React, { useEffect } from 'react';
 
 const Resume = () => {
-
-  useEffect(() => {
-    
-  }, []);
+  const styles = {
+    main: {
+      background: '#03838c',
+      margin: '10px auto',
+      width: 'fit-content',
+      padding: '15px',
+    }
+  }
 
   return (
-    <div className="">
+    <div className="" style={styles.main}>
       <h3>Education</h3>
       <div>
         <h4>U of M Bootcamp</h4>

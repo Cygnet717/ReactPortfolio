@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row'
 const Projects = () => {
   const projList = [
     {
+      id: 1234,
       title: 'Pandemic Watch',
       text: 'This website is a way of easily keeping tabs on the progression of vaccinations among the states. I used the Victory npm to make the graphs and Covid Act Now API to gather the data.',
       technologies: [ "./images/logos/React.png", "./images/logos/NodeJS.png", "./images/logos/ReactRouter.jpg"],
@@ -14,6 +15,7 @@ const Projects = () => {
       imageLocation: `./images/PandemicWatchLandingPage.png`
     },
     {
+      id: 234,
       title: 'Minesweeper',
       text: 'Having always enjoyed Minesweeper I decided to build it to explore all the challenges it presents. One of the harder parts was to generate the clues that would appear on the gameboard.',
       technologies: ['./images/logos/HTML.png', "./images/logos/CSS.png", "./images/logos/jQuery.png"],
@@ -22,6 +24,7 @@ const Projects = () => {
       imageLocation: './images/minesweeper.png'
     },
     {
+      id: 5432,
       title: 'Unicorn Books',
       text: 'This group project uses sequelize and mysql to create a database of books and users. It allows users to checkout books, return their checked out books and update their user information.',
       technologies: ['./images/logos/Handlebars.png', "./images/logos/Sequelize.png", "./images/logos/Mongo.png"],
@@ -30,6 +33,7 @@ const Projects = () => {
       imageLocation: './images/UnicornBooksScreenshot.png'
     },
     {
+      id: 431,
       title: 'Really Radical Recepies',
       text: 'Group built project where users can search for recipes by typing in one or multiple ingredients and a carousel populated with images and titles appears, allowing the user to select a recipe of their choosing',
       technologies: ['./images/logos/HTML.png', "./images/logos/CSS.png", "./images/logos/jQuery.png"],
@@ -44,7 +48,7 @@ const Projects = () => {
       <h1>Projects</h1>
       <Container>
         <Row>
-          {projList.map(proj => <ProjectCard projData = {proj}/>)}
+          {projList.map(proj => <ProjectCard key={proj.id} projData = {proj}/>)}
         </Row>
       </Container>
       
