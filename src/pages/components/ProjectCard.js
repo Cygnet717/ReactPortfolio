@@ -1,6 +1,9 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Image from 'react-bootstrap/Image'
 
 const ReactComponent = (props) => {
   const proj = props.projData;
@@ -14,6 +17,15 @@ const ReactComponent = (props) => {
           <Card.Text>
             {proj.text}
           </Card.Text>
+          <Container>
+            <Row>
+              {proj.technologies.map(tech => {
+                return (<Col xs={6} md={4}>
+                <Image src={tech} thumbnail />
+              </Col>)
+              })}
+            </Row>
+          </Container>
           <Button variant="primary">Repo</Button>
         </Card.Body>
       </Card>

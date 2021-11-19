@@ -8,6 +8,10 @@
   position: relative;
 }
 
+h1{
+  text-align: center;
+}
+
 @media screen and ( min-width: 1400px) {
   .App{
     height: 100vh;

@@ -6,7 +6,7 @@ const AboutMe = () => {
 
   return (
     <div className="">
-      <h1 style={{textAlign: 'center'}}>About Me</h1>
+      <h1 >About Me</h1>
       <Container>
         <Row>
           <Card style={{ width: '18rem', margin: '20px auto' }}>
