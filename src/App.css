@@ -1,7 +1,15 @@
 .App{
   background-image: url("./images/background.jpg");
-  height: 100vh;
+  height: 100%;
   background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+}
+
+@media screen and ( min-width: 1400px) {
+  .App{
+    height: 100vh;
+  }
 }

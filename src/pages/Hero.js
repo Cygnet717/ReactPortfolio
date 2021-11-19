@@ -5,7 +5,7 @@ const Hero = () => {
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
-      height: '70%',
+      height: '85%',
     },
     picture: {
 
