@@ -4,7 +4,7 @@ const Contact = () => {
 
 
   return (
-    <div className="">
+    <div  className="outerDiv">
       <h1>Contact</h1>
       <Form>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">

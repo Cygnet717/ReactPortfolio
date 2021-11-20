@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row'
 const AboutMe = () => {
 
   return (
-    <div className="">
+    <div  className="outerDiv">
       <h1 >About Me</h1>
       <Container>
         <Row>

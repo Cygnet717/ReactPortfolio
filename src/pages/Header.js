@@ -35,7 +35,6 @@ const Header = () => {
               style={styles.link}
             >Home</Nav.Link>
             <Nav.Link 
-              className="activeLink" 
               className={location === '/AboutMe'? 'activeLink' : null} 
               href="/AboutMe" 
               eventKey="link-1" 

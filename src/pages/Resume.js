@@ -10,7 +10,7 @@ const Resume = () => {
   }
 
   return (
-    <div className="" style={styles.main}>
+    <div  className="outerDiv" style={styles.main}>
       <h3>Education</h3>
       <div>
         <h4>U of M Bootcamp</h4>

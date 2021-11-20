@@ -3,10 +3,10 @@ const Footer = () => {
   const styles = {
     footer: {
       position: 'absolute',
-      bottom: 0,
+      bottom: '-40px',
       right: 0,
       left: 0,
-      height: '5vh',
+      
       background: '#D8A113',
       display: 'flex',
       justifyContent: 'space-evenly',
@@ -15,7 +15,8 @@ const Footer = () => {
     link: {
       color: '#592B02',
       fontWeight: 700,
-      border: '1px solid #592B02'
+      border: '1px solid #592B02',
+      margin: '3px auto'
     }
   }
   return (

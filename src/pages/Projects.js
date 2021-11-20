@@ -44,7 +44,7 @@ const Projects = () => {
   ]
 
   return (
-    <div className="">
+    <div className="outerDiv">
       <h1>Projects</h1>
       <Container>
         <Row>

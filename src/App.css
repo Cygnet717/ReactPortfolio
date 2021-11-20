@@ -13,6 +13,17 @@ h1{
   text-align: center;
 }
 
+.outerDiv {
+  padding: 20px auto 140px auto
+}
+
+.salutation {
+  background: rgba(243, 223, 179, 0.822);
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+}
+
 .activeLink {
   outline: 2px solid #592B02
 }
