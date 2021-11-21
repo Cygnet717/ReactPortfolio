@@ -2,9 +2,9 @@ import ProjectCard from './components/ProjectCard'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 
-import pandemic from `./images/PandemicWatchLandingPage.png`;
+import pandemic from './images/PandemicWatchLandingPage.png';
 import reactLogo from './images/logos/React.png';
-import nodeLogo from "./images/logos/NodeJS.png";
+import nodeLogo from "./images/logos/NodeJs.png";
 import reacrRouterLogo from "./images/logos/ReactRouter.jpg";
 import htmlLogo from './images/logos/HTML.png';
 import cssLogo from "./images/logos/CSS.png";

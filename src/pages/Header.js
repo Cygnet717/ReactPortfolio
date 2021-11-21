@@ -15,10 +15,12 @@ const Header = () => {
       color: '#592B02',
       fontWeight: 700,
       fontSize: '130%',
-      margin: '0 5px'
+      margin: '0 5px',
+      fontFamily: 'Playfair Display, serif'
     },
     name: {
-      fontSize: '3rem'
+      fontSize: '3rem',
+      fontFamily: 'Playfair Display, serif'
     }
   }
   

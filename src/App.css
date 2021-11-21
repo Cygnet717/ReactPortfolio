@@ -9,8 +9,13 @@
   position: relative;
 }
 
-h1{
+h1, h3{
   text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+input, button, h4, p, div{
+  font-family: 'Shippori Antique', sans-serif;
 }
 
 .outerDiv {
