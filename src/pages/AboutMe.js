@@ -2,6 +2,11 @@ import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 
+import glass from "./images/glass.jpg";
+import selfStarter from "./images/Victory-Baby.jpg";
+import details from "./images/spock.jpg";
+import team from "./images/team.jpg";
+
 const AboutMe = () => {
 
   return (
@@ -10,7 +15,7 @@ const AboutMe = () => {
       <Container>
         <Row>
           <Card style={{ width: '18rem', margin: '20px auto' }}>
-            <Card.Img variant="top" src="./images/glass.jpg" />
+            <Card.Img variant="top" src={glass} />
             <Card.Body>
               <Card.Title>Glass Half Full</Card.Title>
               <Card.Text>
@@ -20,7 +25,7 @@ const AboutMe = () => {
           </Card>
 
           <Card style={{ width: '18rem', margin: '20px auto' }}>
-            <Card.Img variant="top" src="./images/Victory-Baby.jpg" />
+            <Card.Img variant="top" src={selfStarter} />
             <Card.Body>
               <Card.Title>Self Starter</Card.Title>
               <Card.Text>
@@ -30,7 +35,7 @@ const AboutMe = () => {
           </Card>
 
           <Card style={{ width: '18rem', margin: '20px auto' }}>
-            <Card.Img variant="top" src="./images/spock.jpg" />
+            <Card.Img variant="top" src={details} />
             <Card.Body>
               <Card.Title>Detail-oriented</Card.Title>
               <Card.Text>
@@ -40,7 +45,7 @@ const AboutMe = () => {
           </Card>
 
           <Card style={{ width: '18rem', margin: '20px auto' }}>
-            <Card.Img variant="top" src="./images/team.jpg" />
+            <Card.Img variant="top" src={team} />
             <Card.Body>
               <Card.Title>Team Player</Card.Title>
               <Card.Text>
