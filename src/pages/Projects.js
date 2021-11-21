@@ -14,7 +14,9 @@ import sequelizeLogo from "./images/logos/Sequelize.png";
 import mongoLogo from "./images/logos/Mongo.png";
 import minesweeper from './images/minesweeper.png';
 import unicornBooks from './images/UnicornBooksScreenshot.png';
-import radicalRecepies from './images/UnicornBooksScreenshot.png';
+import radicalRecepies from '/images/final-screenshot.JPG';
+import nonogram from '/images/NonogramScreenshot.png';
+import dbzquiz from '/images/screenshot.png'
 
 const Projects = () => {
   const projList = [
@@ -53,6 +55,24 @@ const Projects = () => {
       repoLocation: 'https://github.com/Preston0214/really-radical-recipes',
       liveLocation: 'https://preston0214.github.io/really-radical-recipes/index.html',
       imageLocation: radicalRecepies
+    },
+    {
+      id: 4332,
+      title: 'Nonogram',
+      text: 'I enjoy playing logic games like Nonogram and I decided to make some from scratch just for the experience of building the code to make the game work. It was a fun challenge and after doing the minesweeper game it wasn\'t too hard.',
+      technologies: [htmlLogo, cssLogo, jqueryLogo],
+      repoLocation: 'https://github.com/Cygnet717/Nonogram',
+      liveLocation: 'https://cygnet717.github.io/Nonogram/',
+      imageLocation: nonogram
+    },
+    {
+      id: 4541,
+      title: 'DBZ Quiz',
+      text: 'I made a quiz about the popular anime show Dragon Ball Z. This is a timed quiz that calculates your power level. You get bonus points for finishing with time left on the clock but be careful because each wrong answer removes time from the clock.',
+      technologies: [htmlLogo, cssLogo, jqueryLogo],
+      repoLocation: 'https://github.com/Cygnet717/Code-Quiz',
+      liveLocation: 'https://cygnet717.github.io/Code-Quiz/',
+      imageLocation: dbzquiz
     }
   ]
 
