@@ -24,3 +24,5 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 repo  https://github.com/Cygnet717/ReactPortfolio
 
 live  https://portfolio-kathy.herokuapp.com/
+
+https://cygnet717.github.io/ReactPortfolio/
