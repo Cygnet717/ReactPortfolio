@@ -8,14 +8,14 @@ const Hero = () => {
       flexWrap: 'wrap',
       alignItems: 'center',
       justifyContent: 'space-evenly',
-      maxHeight: '50%',
+      maxHeight: '85vh',
       
     },
     salutation: {
       
     },
     image: {
-      maxHight: '30vh'
+      padding: '0 10%',
     }
   }
   return (

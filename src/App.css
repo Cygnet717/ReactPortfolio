@@ -19,14 +19,21 @@ input, button, h4, p, div{
 }
 
 .outerDiv {
-  padding: 20px auto 140px auto
+  padding: 20px auto 140px auto;
+  min-height: 80vh;
+  margin-bottom: 30px;
 }
 
 .salutation {
-  background: rgba(243, 223, 179, 0.822);
+  background: #03838cf1;
   border-radius: 5px;
   font-size: 20px;
-  padding: 10px;
+  padding: 20px;
+  color: white;
+}
+
+.whiteColor{
+  color: white;
 }
 
 .activeLink {

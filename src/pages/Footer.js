@@ -3,7 +3,7 @@ const Footer = () => {
   const styles = {
     footer: {
       position: 'absolute',
-      bottom: '-40px',
+      bottom: '-20px',
       right: 0,
       left: 0,
       
