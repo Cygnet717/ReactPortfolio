@@ -15,6 +15,7 @@ const AboutMe = () => {
     },
     card: {
       width: '80vw',
+      maxWidth: '300px',
       margin: '20px auto',
       boxShadow: '5px 5px 5px #4a4538',
       border: '1px solid #422001',
@@ -26,7 +27,7 @@ const AboutMe = () => {
       <h1 style={{color: 'black'}}>About Me</h1>
       <Container>
         <Row>
-          <Card style={styles.card}>
+          <Card className='card' style={styles.card}>
             <Card.Img variant="top" src={glass} />
             <Card.Body style={styles.content}>
               <Card.Title>Glass Half Full</Card.Title>

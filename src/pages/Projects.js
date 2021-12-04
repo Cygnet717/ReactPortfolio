@@ -68,6 +68,7 @@ const Projects = () => {
     },
     card: {
       width: '80vw',
+      maxWidth: '700px',
       margin: '20px auto',
       boxShadow: '5px 5px 5px #4a4538',
       border: '2px solid #03838cf1'

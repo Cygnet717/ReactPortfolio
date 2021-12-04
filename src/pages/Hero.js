@@ -19,7 +19,8 @@ const Hero = () => {
     },
     image: {
       padding: '5% 10%',
-      height: '50vh'
+      width: '80vw',
+      maxWidth: '700px'
     }
   }
   return (

@@ -5,7 +5,7 @@ const Contact = () => {
   const styles ={
     form: {
       width: '80%',
-      maxWidth: '800px',
+      maxWidth: '700px',
       margin: '10vh auto',
     },
     
