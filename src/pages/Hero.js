@@ -1,27 +1,31 @@
-import { Image } from 'react-bootstrap'
+import Image from 'react-bootstrap/Image'
 import selfie from './images/selfie3.jpg'
 const Hero = () => {
   const styles = {
     hero: {
-   
       display: 'flex',
       flexWrap: 'wrap',
       alignItems: 'center',
       justifyContent: 'space-evenly',
-      maxHeight: '85vh',
-      
     },
     salutation: {
-      
+      background: '#03838cf1',
+      borderRadius: '5px',
+      fontSize: '20px',
+      padding: '20px',
+      color: 'white',
+      width: '80vw',
+      maxWidth: '500px'
     },
     image: {
-      padding: '0 10%',
+      padding: '5% 10%',
+      height: '50vh'
     }
   }
   return (
-    <div  className="outerDiv" style={styles.hero}>
+    <div style={styles.hero}>
       <Image src={selfie} style={styles.image} />
-      <p className="salutation" style={styles.salutation}>I am a enjoy solving problems and hunting down solutions. I am an easy going and love learning new things.</p>
+      <p style={styles.salutation}>I am a enjoy solving problems and hunting down solutions. I am an easy going and love learning new things.</p>
     </div>
   );
 };

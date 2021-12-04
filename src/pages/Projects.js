@@ -1,4 +1,5 @@
-import Carousel from 'react-bootstrap/Carousel';
+// import Carousel from 'react-bootstrap/Carousel';
+import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button';
 
 import pandemic from './images/Pandemic.png';
@@ -61,40 +62,44 @@ const Projects = () => {
   ]
 
   const styles = {
-    caption: {
+    content: {
       background: '#03838cf1',
-      borderRadius: '5px'
+      color: '#D8A113'
+    },
+    card: {
+      width: '80vw',
+      margin: '20px auto',
+      boxShadow: '5px 5px 5px #4a4538',
+      border: '2px solid #03838cf1'
     },
     item: {
-      width: '50%',
+      width: '100%',
       margin: '0 auto'
     },
     button: {
-      margin: '0 20px'
+      margin: '0 20px',
+      background: '#D8A113',
+      border: 'none',
+      boxShadow: '5px 5px 5px black',
     }
   }
 
   return (
-    <div className="outerDiv">
-      <h1>Projects</h1>
-      <Carousel style={styles.item}>
-          {projList.map(proj => (
-            <Carousel.Item interval={6000}>
-            <img
-            className="d-block w-100"
-            src={proj.imageLocation}
-            alt="First slide"
-          />
-          <Carousel.Caption style={styles.caption}>
-            <h3>{proj.title}</h3>
-            <p>{proj.text}</p>
+    <div>
+      <h1 style={{color: 'black'}}>Projects</h1>
+      {projList.map(proj =>(
+        <Card style={styles.card}>
+          <Card.Img variant='top' src={proj.imageLocation} alt="Card image" />
+          <Card.Body style={styles.content}>
+            <Card.Title>{proj.title}</Card.Title>
+            <Card.Text>
+              {proj.text}
+            </Card.Text>
             <Button href={proj.repoLocation} variant="light" style={styles.button}>Repo</Button>
-            <Button href={proj.liveLocation} variant="light">Live Page</Button>
-          </Carousel.Caption>
-          </Carousel.Item>
-          ))}
-      </Carousel>
-      
+            <Button href={proj.liveLocation} variant="light"  style={styles.button}>Live Page</Button>
+          </Card.Body>
+        </Card> 
+      ))}
     </div>
   );
 };

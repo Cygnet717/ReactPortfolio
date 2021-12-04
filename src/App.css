@@ -1,7 +1,7 @@
 .App{
   background-image: url("./pages/images/background.jpg");
   height: 100%;
-  min-height: 100vh;
+  min-height: 97.5vh;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -12,27 +12,11 @@
 h1, h3{
   text-align: center;
   font-family: 'Playfair Display', serif;
+  color: white
 }
 
 input, button, h4, p, div{
   font-family: 'Shippori Antique', sans-serif;
-}
-
-.outerDiv {
-  padding: 20px auto 140px auto;
-  min-height: 80vh;
-  margin-bottom: 30px;
-}
-
-.salutation {
-  background: #03838cf1;
-  border-radius: 5px;
-  font-size: 20px;
-  padding: 20px;
-  color: white;
-}
-
-.whiteColor{
   color: white;
 }
 

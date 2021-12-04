@@ -20,6 +20,7 @@ function App() {
           <Route exact path="/Resume" element={<Resume/>}/>
           <Route exact path="/Contact" element={<Contact/>}/>
         </Routes>
+        <div style={{height: '50px'}}></div>
         <Footer />
       </div>
     </Router>

@@ -6,7 +6,6 @@ const Footer = () => {
       bottom: '-20px',
       right: 0,
       left: 0,
-      
       background: '#D8A113',
       display: 'flex',
       justifyContent: 'space-evenly',
