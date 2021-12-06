@@ -1,7 +1,7 @@
 {
   "name": "reactportfolio",
   "version": "0.1.0",
-  "homepage": "https://cygnet717.github.io/ReactPortfolio",
+  "homepage": "https://cygnet717.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
