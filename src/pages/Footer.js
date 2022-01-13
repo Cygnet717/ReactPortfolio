@@ -1,5 +1,5 @@
 import Button from 'react-bootstrap/Button'
-import resume from './resume/Kathy Bradt-Resume.pdf'
+import resume from './resume/Kathy Bradt-Resume.docx.pdf'
 const Footer = () => {
   const styles = {
     footer: {
