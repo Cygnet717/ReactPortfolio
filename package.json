@@ -1,6 +1,9 @@
 {
   "name": "reactportfolio",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.17.3"
+  },
   "homepage": "https://cygnet717.github.io/",
   "private": true,
   "dependencies": {
