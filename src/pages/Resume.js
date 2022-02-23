@@ -25,6 +25,9 @@ const Resume = () => {
     logos: {
       height: '90px',
       margin: '10px 0'
+    },
+    mongoLogo: {
+      width: '240px'
     }
   }
 
@@ -62,7 +65,7 @@ const Resume = () => {
           <img src={jqueryLogo} alt='' style={styles.logos}></img>
           <img src={sassLogo} alt='' style={styles.logos}></img>
           <img src={sequelizeLogo} alt='' style={styles.logos}></img>
-          <img src={mongoLogo} alt='' style={styles.logos, {width: '240px'}}></img>
+          <img src={mongoLogo} alt='' style={styles.logos, styles.mongoLogo}></img>
         </Container>
       </div>
     </div>
