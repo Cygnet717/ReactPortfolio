@@ -1,6 +1,7 @@
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
+import '../hover-min.css'
 
 const Header = () => {
   let location = window.location.pathname;
@@ -20,6 +21,7 @@ const Header = () => {
     },
     name: {
       fontSize: '3rem',
+      background: 'linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5,#23d5ab)',
       fontFamily: 'Playfair Display, serif'
     }
   }
@@ -33,30 +35,30 @@ const Header = () => {
           <Nav className="me-auto">
             <Nav.Link 
               href="/" 
-              className={location === '/'? 'activeLink' : null} 
+              className={location === '/'? 'activeLink' : 'hvr-float'} 
               style={styles.link}
             >Home</Nav.Link>
             <Nav.Link 
-              className={location === '/AboutMe'? 'activeLink' : null} 
+              className={location === '/AboutMe'? 'activeLink' : 'hvr-float'} 
               href="/AboutMe" 
               eventKey="link-1" 
               style={styles.link}
             >About Me</Nav.Link>
             <Nav.Link 
               href="/Projects" 
-              className={location === '/Projects'? 'activeLink' : null}  
+              className={location === '/Projects'? 'activeLink' : 'hvr-float'}  
               eventKey="link-2" 
               style={styles.link}
             >Projects</Nav.Link>
             <Nav.Link 
               href="/Resume" 
-              className={location === '/Resume'? 'activeLink' : null} 
+              className={location === '/Resume'? 'activeLink' : 'hvr-float'} 
               eventKey="link-3" 
               style={styles.link}
             >Resume</Nav.Link>
             <Nav.Link 
               href="/Contact" 
-              className={location === '/Contact'? 'activeLink' : null} 
+              className={location === '/Contact'? 'activeLink' : 'hvr-float'} 
               eventKey="link-4" 
               style={styles.link}
             >Contact</Nav.Link>

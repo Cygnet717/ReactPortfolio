@@ -9,17 +9,17 @@ const Hero = () => {
       justifyContent: 'space-evenly',
     },
     salutation: {
-      background: '#03838cf1',
+      background: '#592B02',
       borderRadius: '5px',
       fontSize: '20px',
       padding: '20px',
       color: 'white',
-      width: '80vw',
+      width: '45vw',
       maxWidth: '500px'
     },
     image: {
       padding: '5% 10%',
-      width: '80vw',
+      width: '50vw',
       maxWidth: '700px'
     }
   }

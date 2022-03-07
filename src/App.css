@@ -21,7 +21,8 @@ input, button, h4, p, div{
 }
 
 .activeLink {
-  outline: 2px solid #592B02
+  outline: 2px solid white;
+  color: white
 }
 
 
