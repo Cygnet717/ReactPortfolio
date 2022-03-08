@@ -10,17 +10,23 @@ import team from "./images/team.jpg";
 const AboutMe = () => {
   const styles = {
     content: {
-      background: '#422001',
-      color: '#D8A113'
+      background: '#03838cf1',
+      color: '#D8A113',
+      fontSize: '200',
+      borderTop: '2px solid black'
     },
     card: {
-      width: '80vw',
+      width: '20vw',
       maxWidth: '300px',
+      fontSize: '60%',
       margin: '20px auto',
       boxShadow: '5px 5px 5px #4a4538',
       border: '1px solid #422001',
       padding: '0'
     },
+    image: {
+      height: '150px'
+    }
   }
   return (
     <div  className="outerDiv">
@@ -28,7 +34,7 @@ const AboutMe = () => {
       <Container>
         <Row>
           <Card className='card' style={styles.card}>
-            <Card.Img variant="top" src={glass} />
+            <Card.Img variant="top" style={styles.image} src={glass} />
             <Card.Body style={styles.content}>
               <Card.Title>Glass Half Full</Card.Title>
               <Card.Text>
@@ -38,7 +44,7 @@ const AboutMe = () => {
           </Card>
 
           <Card style={styles.card}>
-            <Card.Img variant="top" src={selfStarter} />
+            <Card.Img variant="top" style={styles.image} src={selfStarter} />
             <Card.Body style={styles.content}>
               <Card.Title>Self Starter</Card.Title>
               <Card.Text>
@@ -48,7 +54,7 @@ const AboutMe = () => {
           </Card>
 
           <Card style={styles.card}>
-            <Card.Img variant="top" src={details} />
+            <Card.Img variant="top" style={styles.image} src={details} />
             <Card.Body style={styles.content}>
               <Card.Title>Detail-oriented</Card.Title>
               <Card.Text>
@@ -58,7 +64,7 @@ const AboutMe = () => {
           </Card>
 
           <Card style={styles.card}>
-            <Card.Img variant="top" src={team} />
+            <Card.Img variant="top" style={styles.image} src={team} />
             <Card.Body style={styles.content}>
               <Card.Title>Team Player</Card.Title>
               <Card.Text>

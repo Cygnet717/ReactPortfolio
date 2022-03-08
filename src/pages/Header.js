@@ -2,6 +2,7 @@ import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
 import '../hover-min.css'
+import '../App.css'
 
 const Header = () => {
   let location = window.location.pathname;
@@ -10,18 +11,17 @@ const Header = () => {
     bar: {
       background: '#D8A113',
       border: 'none',
-      
+      height: '60px'
     },
     link: {
       color: '#592B02',
-      fontWeight: 700,
-      fontSize: '130%',
+      fontWeight: 600,
+      fontSize: '90%',
       margin: '0 5px',
       fontFamily: 'Playfair Display, serif'
     },
     name: {
       fontSize: '3rem',
-      background: 'linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5,#23d5ab)',
       fontFamily: 'Playfair Display, serif'
     }
   }
