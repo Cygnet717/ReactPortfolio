@@ -1,5 +1,5 @@
 import Image from 'react-bootstrap/Image'
-import selfie from './images/selfie3.jpg'
+import selfie from './images/profPhoto.jpg'
 const Hero = () => {
   const styles = {
     hero: {

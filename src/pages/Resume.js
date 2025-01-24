@@ -36,7 +36,21 @@ const Resume = () => {
   return (
     <div  className="outerDiv" >
       <div style={styles.main}>
+        <h3>Work History</h3>
+        <div style={styles.collection}>
+          <h4>Associate Software Engineer</h4>
+          <h4>Optum</h4>
+          <p>July 2022 - Present</p>
+          <p>Worked on a scrum team to create and upkeep ETL pipelines, REST APIs, and Azure services to implement and optimize data workflows, leveraging Kafka topics for efficient data processing and integration.</p>
+        </div>
+
         <h3>Education</h3>
+        <div style={styles.collection}>
+          <h4>TekSystems Training</h4>
+          <p>Completed July 2022</p>
+          <p>-Training course leading to a contract position at Optum.</p>
+          <p>-Worked closely with teammates to build quality projects and solidify my knowledge.</p>
+        </div>
         <div style={styles.collection}>
           <h4>U of M Bootcamp</h4>
           <p>Completed December 2021</p>
@@ -49,13 +63,7 @@ const Resume = () => {
           <p>-Halted job search due to pandemic and childcare</p>
         </div>
 
-        <h3>Work History</h3>
-        <div style={styles.collection}>
-          <h4>Certified Veteranary Technician</h4>
-        </div>
-        <div style={styles.collection}>
-          <h4>Red River Zoo Zookeeper</h4>
-        </div>
+       
       
         <h3>Skills</h3>
         <Container style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around'}}>
